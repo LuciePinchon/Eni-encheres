@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+nav {
+  /* Width : 100% par rapport au viewport = 100% de sa largeur */
+  width: 100%;
+  background-color: #dda15e;
+  padding: 12px 6px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fefae0;
+  margin: 0 10px;
+  font-size: 0.7rem;
+}
+
+.logoEni{
+	margin-right: auto;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}

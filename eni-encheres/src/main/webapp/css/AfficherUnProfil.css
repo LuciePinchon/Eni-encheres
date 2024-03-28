@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+  margin : 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background: rgb(254,250,224);
+  background: radial-gradient(circle, rgba(254,250,224,1) 0%, rgba(254,250,224,1) 100%);
+}
+h1{
+	margin-top: 3rem;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #606c38;
+}
+.details-utilisateur {
+	list-style : none;
+	padding: 0;
+	margin-left: 50px;
+	
+	
+}
+.details-utilisateur li {
+	margin-bottom: 8px;
+}
+.details-utilisateur strong {
+	font-weight: bold;
+	margin-right: 5px;
+	
+}
